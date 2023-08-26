@@ -36,7 +36,7 @@ The tool currently supports projects from two origins that are [PyPI](https://ar
 | Initialize the swh-spdx repo |  [D3857](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/3857c3f934f9501d1aaea921c916a1ec1225bad8)  |
 | Implement the initial classes, methods, and their unit tests |   [D8213](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/8213bf960e82903ce80d1d6a68af297689a273eb)   |
 | Add more test coverage | [Dbcd0](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/bcd0a2357917e75ad89b050ebca317c55790f0ba) |
-| Add type annotations | [De97b](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/bcd0a2357917e75ad89b050ebca317c55790f0ba)|
+| Add type annotations | [De97b](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/e97be18dc5ac5181fd49327afad2bafda0d6203a)|
 | Add support for swh-model CoreSWHID class | [Db28d](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/b28d8b7b7bdc8dcdc8ce8755fdd3787cb33a13f9)|
 | Implement initial SPDX generation of PyPI origin projects | [D7ea8](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/7ea889fd83d1b395f69b6cccdf0fb9ba19165b4b)|
 | Implement initial SPDX generation of NPM origin projects | [D7163](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/7163df0986fdb158b5c6023db43040264e3024ef)|
