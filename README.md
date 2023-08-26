@@ -42,6 +42,11 @@ The tool currently supports projects from two origins that are [PyPI](https://ar
 | Implement initial SPDX generation of NPM origin projects | [D7163](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/7163df0986fdb158b5c6023db43040264e3024ef)|
 | Add suggestions in docstrings for future improvements | [D6762](https://gitlab.softwareheritage.org/swh/devel/swh-spdx/-/commit/6762e66fb34ab3d8a8875fac5a34c06beb820876)|
 
+### Challenges
+The major challenge I faced during this project was the difference in the directory structure and metadata file structure of projects from different origins, for example, the amount of information the metadata file PKG-INFO of a PyPI origin has is different from that of package.json of a NPM origin so the generalized code might not work.
+
+The way I solved this was to make different implementations for different origins, though the base class remains the same, the methodology to extract the metadata from different origins differs.
+  
 ### Future Aspects
 
 The tool is not yet live due to ongoing improvements and additional implementations. Looking forward, the project's future directions include:
