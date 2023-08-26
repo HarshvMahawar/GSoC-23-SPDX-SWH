@@ -45,7 +45,7 @@ The tool currently supports projects from two origins that are [PyPI](https://ar
 ### Challenges
 The major challenge I faced during this project was the difference in the directory structure and metadata file structure of projects from different origins, for example, the amount of information the metadata file PKG-INFO of a PyPI origin has is different from that of package.json of a NPM origin so the generalized code might not work.
 
-The way I solved this was to make different implementations for different origins, though the base class remains the same, the methodology to extract the metadata from different origins differs.
+The way I solved this was to make different implementations for different origins, though the base classes remain the same, the methodology to extract the metadata from different origins differs.
   
 ### Future Aspects
 
