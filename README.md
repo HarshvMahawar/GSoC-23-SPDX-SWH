@@ -30,6 +30,9 @@ I developed a Python package named [swh-spdx](https://gitlab.softwareheritage.or
 
 The tool currently supports projects from two origin types that are [PyPI](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=pypi) and [NPM](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=npm) source packages where the tool takes in the [SoftWare Heritage persistent IDentifier(SWHID)](https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html) of the project and writes the generated SBOM in the specified path.
 
+#### What is the need for this tool?
+By generating SPDX documents for Software Heritage archive projects, this initiative simplifies the management of open-source software. Developers can effortlessly trace software origins, licenses, and vulnerabilities. This development simplifies risk analysis, and speeds up audits, all supporting long-lasting open-source practices and strengthening secure software creation.
+
 ### Contributions
 | Title |  Commit |
 |:----------:|:--------:|
