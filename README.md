@@ -15,7 +15,7 @@ The [Software Package Data Exchange (SPDX)](https://spdx.dev/) specification def
 SPDX was originally designed over a decade ago as a way to help developers comply with open-source licenses. Since then it's been extended with new capabilities for describing dependency trees and issuing SBOMs. SPDX was catapulted to global attention in September 2021 when ISO recognized it as the international standard for software supply chain documentation.
 
 ## About Software Heritage
-[Software Heritage](https://www.softwareheritage.org/) is on a mission to collect, preserve, and share all the publicly available software with its source code and development history. The archive periodically crawls GitHub, GitLab, Debian, PyPI, etc. It has preserved more than 16 billion source code files with 3.4 billion commits spanning more than 256 million software projects.
+[Software Heritage](https://www.softwareheritage.org/) is on a mission to collect, preserve, and share all the publicly available software with its source code and development history. The archive periodically crawls GitHub, GitLab, Debian, PyPI, etc. It has preserved more than 16 billion source code files with 3.4 billion commits spanning more than 256 million software projects. [Software Heritage listers](https://docs.softwareheritage.org/user/listers.html) serve the purpose of identifying the origins of software for inclusion into the Software Heritage archive, whereas [Software Heritage loaders](https://docs.softwareheritage.org/user/loaders.html) are responsible for incorporating content into the Software Heritage archive.
 
 My GSoC project was all about targeting these projects and developing a CLI (Command Line Interface) tool to generate their SBOMs (Software Bill Of Materials) in SPDX standard making use of SPDX's [tools-python](https://github.com/spdx/tools-python) library.
 
@@ -49,14 +49,14 @@ The way I solved this was to make different implementations for different origin
   
 ### Future Aspects
 
-The tool is not yet live due to ongoing improvements and additional implementations. Looking forward, the project's future directions include:
+The tool is not yet live due to ongoing improvements and additional implementations. These ongoing improvements encompass areas such as error handling, unit testing, and the final implementation of the command-line interface (CLI). Looking forward, the project's future directions include:
+- Enhance metadata parsing for the more comprehensive population of SPDX fields. Look at the [SPDX v2.3 Specification](https://spdx.github.io/spdx-spec/v2.3/introduction/)  to get more information on each SPDX field
+- Add support for other available origins
 - Improve the test coverage of the current code
-- Implement the tool to [Software Heritage's Web API](https://archive.softwareheritage.org/api/)
-- Enhance metadata parsing for the more comprehensive population of SPDX fields. Look at the [SPDX v2.3 Specification](https://spdx.github.io/spdx-spec/v2.3/introduction/)  to get more information on each SPDX field.
-- Add support for other available origins ( [List of origins supported](https://archive.softwareheritage.org/) )
+- Implement the tool to the Software Heritage's Web User Interface
 
 ### Summing Up
-It was a great experience to work with the wonderful team of developers @ Software Heritage and SPDX especially [David Douard](https://gitlab.softwareheritage.org/douardda) (my mentor) and [JayeshV](https://gitlab.softwareheritage.org/jayeshv) who helped me where-ever I faced any doubt, reviewed my work and suggested some insightful improvements. The Open Source community of [SWH](https://app.element.io/#/room/#swh-devel:matrix.org/$7bsRyQRNc2jXF2IhZuNdFRjlb0o1rRihgpE-eq656mQ) and [SPDX](https://app.gitter.im/#/room/#spdx-org_Lobby:gitter.im) was readily available to assist me with any challenges I encountered during the setup of my development environment, submitting merge requests (MRs)/pull requests (PRs), and more.
+It was a great experience to work with the wonderful team of developers @ Software Heritage and SPDX especially [David Douard](https://gitlab.softwareheritage.org/douardda) (my mentor) and [JayeshV](https://gitlab.softwareheritage.org/jayeshv) who helped me where-ever I faced any doubt, reviewed my work and suggested some insightful improvements. The Open Source community of [SWH](https://app.element.io/#/room/#swh-devel:matrix.org/$7bsRyQRNc2jXF2IhZuNdFRjlb0o1rRihgpE-eq656mQ) and [SPDX](https://app.gitter.im/#/room/#spdx-org_Lobby:gitter.im) was readily available to assist me with any challenges I encountered during the setup of my development environment, solving issues, submitting merge requests (MRs)/pull requests (PRs), and more.
 
 Throughout the Google Summer of Code program, I gained valuable insights into the practical software development practices that are integral to real-world projects. I am confident that the knowledge and experience I acquired will greatly benefit my future endeavors.
 
