@@ -17,7 +17,7 @@ SPDX was originally designed over a decade ago as a way to help developers compl
 ## About Software Heritage
 [Software Heritage](https://www.softwareheritage.org/) is on a mission to collect, preserve, and share all the publicly available software with its source code and development history. The archive periodically crawls GitHub, GitLab, Debian, PyPI, etc. It has preserved more than 16 billion source code files with 3.4 billion commits spanning more than 256 million software projects.
 
-My GSoC project was all about targeting these projects and developing a tool to generate their SBOMs (Software Bill Of Materials) in SPDX standard making use of SPDX's [tools-python](https://github.com/spdx/tools-python) library.
+My GSoC project was all about targeting these projects and developing a CLI (Command Line Interface) tool to generate their SBOMs (Software Bill Of Materials) in SPDX standard making use of SPDX's [tools-python](https://github.com/spdx/tools-python) library.
 
 ### OVERVIEW
 I developed a Python package named [swh-spdx](https://gitlab.softwareheritage.org/swh/devel/swh-spdx) to assist in the generation of SBOMs for projects stored in the Software Heritage Archive. It utilizes the Software Heritage [GraphQL API](https://archive.softwareheritage.org/graphql/) to extract the source code of projects from different origins. I employed the [gql](https://github.com/graphql-python/gql) module to establish connectivity between the tool and the GraphQL API server of Software Heritage.
