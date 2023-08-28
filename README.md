@@ -28,7 +28,7 @@ I developed a Python package named [swh-spdx](https://gitlab.softwareheritage.or
    - Documentation testing -> [Sphinx](https://github.com/sphinx-doc/sphinx)
    - Automation Server @ Software Heritage -> [Jenkins](https://github.com/jenkinsci)
 
-The tool currently supports projects from two origins that are [PyPI](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=pypi) and [NPM](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=npm) where the tool takes in the [SoftWare Heritage persistent IDentifier(SWHID)](https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html) of project and writes the generated SBOM in specified path.
+The tool currently supports projects from two origin types that are [PyPI](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=pypi) and [NPM](https://archive.softwareheritage.org/browse/search/?q=&with_visit=true&with_content=true&visit_type=npm) source packages where the tool takes in the [SoftWare Heritage persistent IDentifier(SWHID)](https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html) of the project and writes the generated SBOM in the specified path.
 
 ### Contributions
 | Title |  Commit |
